@@ -12,17 +12,9 @@ struct poly_t {
   poly_t *next;
 };
 
-// static void consume_whitespace(const char *s, int *i) {
-//   while (s[*i] == ' ') {
-//     *i += 1;
-//   }
-// }
-
 static int read_coefficient(const char *s, int *i) {
   int res;
   int isnegative;
-
-  // consume_whitespace(s, i);
 
   res = 0;
   isnegative = 0;
